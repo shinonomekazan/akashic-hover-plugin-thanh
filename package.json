@@ -36,5 +36,8 @@
   },
   "publishConfig": {
     "@akashic-extension:registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@akashic/akashic-engine": "~3.0.0"
   }
 }
