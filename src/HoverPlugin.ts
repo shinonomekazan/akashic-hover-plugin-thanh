@@ -46,7 +46,7 @@ class HoverPlugin implements HoverPluginLike {
 		if (typeof navigator === "undefined") return false;
 		// is iPad Desktop mode
 		if (typeof document !== "undefined") {
-			if (/Mac OS/.test(navigator.userAgent) && document.ontouchstart != null) {
+			if (/Mac OS/.test(navigator.userAgent) && document.ontouchstart !== undefined) {
 				// Note: If PC Mac & enable touch device, return true
 				return true;
 			}
